@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    background-color: #CCC;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #DDD;
+    width: 400px;
+}
+
+h4 {
+    font-size: 28px;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: #DDD;
+}
+
+input {
+    background-color: #DDD;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+input:focus {
+    outline: none;
+}
+
+.field {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+#f1, #f2, #f3 {
+    margin-bottom: -27px;
+    border-top: none;
+}
+#f1, #f4, #f7 {
+    border-left: none;
+    border-right: none;
+}
+#f3, #f6, #f9 {
+    border-right: none;
+    border-left: none;
+}
+#f7, #f8, #f9 {
+    border-bottom: none;
+    margin-top: -27px;
+}
+
+button {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.win-line1 {
+    display: none;
+    width: 280px;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    top: 261px;
+    right: 508px;
+}
+.win-line2 {
+    display: none;
+    width: 280px;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    top: 353px;
+    right: 508px;
+}
+.win-line3 {
+    display: none;
+    width: 280px;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    top: 446px;
+    right: 508px;
+}
+.win-line4 {
+    display: none;
+    width: 1px;
+    height: 280px;
+    background-color: #666;
+    position: absolute;
+    top: 214px;
+    right: 553px;
+}
+.win-line5 {
+    display: none;
+    width: 1px;
+    height: 280px;
+    background-color: #666;
+    position: absolute;
+    top: 214px;
+    right: 649px;
+}
+.win-line6 {
+    display: none;
+    width: 1px;
+    height: 280px;
+    background-color: #666;
+    position: absolute;
+    top: 214px;
+    right: 745px;
+}
+.win-line7 {
+    transform: rotate(44deg);
+    display: none;
+    width: 350px;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    top: 354px;
+    right: 473px;
+}
+.win-line8 {
+    transform: rotate(-44deg);
+    display: none;
+    width: 350px;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    top: 353px;
+    right: 473px;
+}
